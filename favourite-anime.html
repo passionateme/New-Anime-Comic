@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favourite-anime</title>
+  <script>
+
+    function loadFavoriteImage() {
+          
+      const favoriteImage = localStorage.getItem('favoriteAnime');
+            console.log(favoriteImage);
+
+            if ('favoriteImage') {
+              document.getElementById('favorite-images').src =favoriteImage;
+        console.log(favoriteImage);
+            } else {
+                document.getElementById('no-image').style.display = 'block';
+            }
+        }
+
+        window.onload = loadFavoriteImage; 
+
+  </script>
+ </head>
+ <body>
+
+  <main> 
+
+  <div id = "main-wrapper">
+
+<h2>Your Favorite Anime Images:</h2>
+
+<p id="no-image" style="display: none;">No favorite anime image selected.</p>
+
+<img id="favorite-images" src="" alt="Favorite Anime Image"  height= "350px" , width = "250px" , display = "inline-block">
+
+  </div>
+
+</main>
+
+  <footer>
+
+  </footer>
+
+  <style>
+body{
+  background-color: rgb(46, 99, 145);
+  background-image: url(https://wallpaperaccess.com/full/9336992.gif);
+  background-repeat: no-repeat;
+  height: 1050px;
+  width: fit-content;
+}
+
+h2{
+  color: white;
+}
+  </style>
+
+ </body>
+ </html>
