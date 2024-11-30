@@ -1,7 +1,17 @@
 html {
-  background-color: #565656;
-  height: 1500px;
+  background-color: #567C8D;
+  height: 100%;
+  width: 100%;
   font-family: "Montserrat, Arial";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: sans-serif;
 }
 
 footer , #action-bar{
@@ -16,7 +26,7 @@ text-decoration: none;
 color: rgb(10, 10, 10);
 font-size: 23px;
 font-weight: 500;
-margin-left: 5%;
+margin-left: 2%;
 text-decoration: solid;
 }
 
@@ -26,7 +36,7 @@ text-decoration: solid;
 
  #action-bar{
   height: 10%;
-  margin-left: 6%;
+  margin-left: 2%;
   /* background-image: url(anime-uchiha-header1.jpg) ;
   background-repeat: no-repeat; */
 }
@@ -43,7 +53,7 @@ footer
 .containers1 {
   height:350px;
   width: 250px;
- margin-left:5%; 
+ margin-left:2%; 
  margin-top: 5%;
  margin-bottom: 5%;
 background-color: rgb(100, 126, 148);
@@ -55,7 +65,7 @@ background-color: rgb(100, 126, 148);
   height:350px;
   width: 250px;
  margin-left:5%; 
- margin-top: 5%;
+ margin-top: 2%;
  margin-bottom: 5%;
 background-color: rgb(100, 126, 148);
  display: inline-block;
@@ -65,7 +75,7 @@ background-color: rgb(100, 126, 148);
 .containers3{
   height:350px;
   width: 250px;
- margin-left:5%; 
+ margin-left:2%; 
  margin-top: 5%;
  margin-bottom: 5%;
 background-color: rgb(100, 126, 148);
@@ -79,12 +89,7 @@ background-color: rgb(32, 136, 228);
 display: inline-block;
 }
 
- /* {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:350px;
-  width: 250px;
-}
+
  */
 
 
